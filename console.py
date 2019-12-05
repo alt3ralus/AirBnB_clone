@@ -123,7 +123,7 @@ class HBNBCommand(cmd.Cmd):
                         my_list.append("{}".format(value))
                 print(my_list)
 
-    def do_update(self, line):
+
 
 
 
