@@ -123,7 +123,6 @@ class HBNBCommand(cmd.Cmd):
                         my_list.append("{}".format(value))
                 print(my_list)
 
-
     def do_update(self, line):
         '''
         Updates an instance based on the class name and id by adding or
