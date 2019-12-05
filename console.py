@@ -126,7 +126,7 @@ class HBNBCommand(cmd.Cmd):
     def do_update(self, line):
         '''
 
-        updating.
+
         '''
     def do_update(self, line):
         '''
