@@ -127,7 +127,7 @@ class HBNBCommand(cmd.Cmd):
         Updates an instance based on the class name and id by adding or
         updating.
         '''
-def do_update(self, line):
+    def do_update(self, line):
         '''
         Updates an instance based on the class name and id by adding or
         updating.
@@ -154,6 +154,6 @@ def do_update(self, line):
                     obj = storage.all().get(key)
                     setattr(obj, data[2], data[3])
                     storage.save()
-                    
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
